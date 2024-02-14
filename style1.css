@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url("binushd.jpeg");
+    filter: blur(8px);
+    /* Ubah nilai blur sesuai keinginan Anda */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+header {
+    background-color: #0054a5;
+    padding: 15px;
+
+}
+
+header img {
+    width: 200px;
+
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0054a5;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    float: left;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: #1179db;
+}
+
+.navbar .active {
+    background-color: #1179db;
+}
+
+.login-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.wrapper .container img {
+    height: 7113;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 64px;
+
+}
+
+.wrapper {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.wrapper h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wrapper form {
+    margin-top: 30px;
+}
+
+.wrapper form .input-box {
+    height: 52px;
+    margin: 18px 0;
+}
+
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+    border-color: #4070f4;
+}
+
+.button input {
+    color: #ffffff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+}
+
+.button input:hover {
+    background: #0054a5;
+}
+
+form.text h3 {
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+form.text h3 a {
+    color: #0054a5;
+    text-decoration: none;
+}
+
+form.text h3 a:hover {
+    text-decoration: underline;
+}
